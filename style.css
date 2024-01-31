@@ -63,11 +63,25 @@
   font-size: 1rem;
 }
 
+.review {
+  margin: 2rem 0;
+}
+
+.review::after {
+  content: "";
+  background-color: var(--primarycolor);
+  height: 0.1rem;
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 1rem;
+}
+
 .username {
   font-size: 1.3rem;
   font-weight: normal;
   /* text-decoration: underline; */
-  border-top: 1px solid var(--primarycolor);
+  /* border-top: 1px solid var(--primarycolor); */
 }
 
 .controls {
